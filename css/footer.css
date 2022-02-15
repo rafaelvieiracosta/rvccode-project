@@ -1,0 +1,46 @@
+footer {
+  background: #0b0c12;
+  color: #f5f7fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.container p,
+.container ul {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.container ul li:nth-child(n + 2) {
+  margin-top: 20px;
+}
+
+.container a {
+  color: #f5f7fa;
+}
+
+.container a:hover {
+  color: #18a0fb;
+}
+
+.container a img {
+  width: 40px;
+}
+
+.redes {
+  margin-top: 10px;
+}
+.redes a:nth-child(n + 2) {
+  margin-left: 10px;
+}
